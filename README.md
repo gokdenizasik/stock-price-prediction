@@ -7,10 +7,9 @@ Bu proje, PyTorch kullanarak LSTM ve GRU modelleriyle hisse senedi fiyatı tahmi
 - [x] **Hafta 1:** Ortam kurulumu (Python, VS Code, Git/GitHub, venv), ML temelleri (denetimli/denetimsiz öğrenme, regresyon/sınıflandırma), scikit-learn ile mini regresyon alıştırması
 - [ ] **Hafta 2-3:** PyTorch temelleri (tensor, autograd, nn.Module, optimizer), RNN/LSTM/GRU kavramları
 - [ ] **Hafta 3:** RNN/LSTM/GRU kavramları, proje planlaması
-- [ ] **Hafta 4:** Veri hazırlığı, model tanımlama
-- [ ] **Hafta 5:** Model eğitimi ve değerlendirme
+- [x] **Hafta 4:** Veri hazırlığı, model tanımlama (AMZN hisse verisi, MinMaxScaler, sliding window)
+- [x] **Hafta 5:** Model eğitimi ve değerlendirme (LSTM & GRU, hiperparametre ayarlaması)
 - [ ] **Hafta 6:** Karşılaştırma, dokümantasyon, kapanış
-
 ## Kurulum
 
 \`\`\`
