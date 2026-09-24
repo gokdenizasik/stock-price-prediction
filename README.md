@@ -1,3 +1,23 @@
+# Hisse Senedi Fiyatı Tahmini (LSTM & GRU) — PyTorch
+
+Bu proje, PyTorch kullanarak LSTM ve GRU modelleriyle hisse senedi fiyatı tahmini yapan bir zaman serisi regresyon projesidir. Makine öğrenmesi temellerinden başlayarak adım adım geliştirilmiştir.
+
+## Kurulum
+
+\`\`\`
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+\`\`\`
+
+## Klasör Yapısı
+
+- `notebooks/week1/` — ML temelleri ve mini regresyon alıştırması
+- `notebooks/week2/` — PyTorch temelleri
+- `notebooks/week4/` — Veri hazırlığı
+- `notebooks/week5/` — LSTM & GRU model eğitimi ve karşılaştırması
+- `models/` — Eğitilmiş model ve scaler dosyaları
+- `backend/` — FastAPI ile tahmin servisi (geliştirme aşamasında)
 ## İlerleme
 
 - [x] **Hafta 1:** Ortam kurulumu (Python, VS Code, Git/GitHub, venv)
